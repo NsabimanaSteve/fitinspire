@@ -339,8 +339,11 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 </head>
 <body>
 
-  <!-- Navbar -->
-  <nav class="navbar">
+ 
+
+
+     <!-- Navbar -->
+     <nav class="navbar">
         <a href="../index.php" class="logo">FitInspire Hub</a>
         <ul class="nav-links">
             <li><a href="index.php"><i class="fas fa-home"></i> Home</a></li>
@@ -348,6 +351,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             <li><a href="index.php#trainers"><i class="fas fa-user"></i> Trainers</a></li>
             <li><a href="index.php#membership"><i class="fas fa-dollar-sign"></i> Membership</a></li>
             <li><a href="signup.php"><i class="fas fa-user-plus"></i> Sign Up</a></li>
+            <li><a href="login.php"><i class="fas fa-sign-in-alt"></i> Login</a></li>
         </ul>
     </nav>
 
